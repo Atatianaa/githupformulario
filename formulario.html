@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+    <style>
+        table, th, td {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: blue;">WELCOME</h1>
+    </header>
+    <h2 style="color: red;">Successfully Registered!</h2>
+    
+    <Form action="/formulario2" method="post">
+        <label for="Username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Username" />
+        <br>
+        <br>
+        <label for="first name">First Name</label>
+        <input type="text" id="first name" name="first name" placeholder="First Name" />
+        <br>
+        <br>
+        <label for="last name">Last Name</label>
+        <input type="text" id="last name" name="last name" placeholder="Last Name" />
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Password" />
+        <br>
+        <br>
+        <label for="confirm password">Confirm Password</label>
+        <input type="password" id="confirm password" name="confirm password" placeholder="Confirm Password" />
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <br>
+        <br>
+        <label style="float: left;">Gender</label>
+        <br>
+        <label style="float:left;">
+            <input checked type="radio" name="gender" value="Male" />Male
+        </label>
+        <label style="float: left;">
+            <input type="radio" name="gender" value="Female" />Female
+        </label>
+        <br>
+        <br>
+        <label style="float: left;">
+            <input type="checkbox" name="accept conditions" value="accept conditions" /> I accept Terms and Conditions
+        </label>
+        <br>
+        <br>
+        <button style="color: red;" type="submit">Add User</button>
+    </Form>
+    <br>
+    <table> 
+<thead>
+    <tr style="color: blue;">
+        <th>User Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Password</th>
+        <th>Email</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td style="color: blue;">example_02</td>
+        <td style="color: red;">Example</td>
+        <td style="color: blue;">Tutorial</td>
+        <td style="color: red;">1234</td>
+        <td style="color: blue;">example@gmail.com</td>
+    </tr>
+</tbody>
+    </table>
+</body>
+
+</html>
